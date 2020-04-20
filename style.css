@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #fff;
+	font-family: Orbitron;
+}
+canvas {
+	width:60%;
+}
+.d-inline > * {
+	font-size: .8rem;
+	letter-spacing: 0px;
+	color: #00255;
+	width: 50%;
+	height:40%;
+    display: inline-block;
+   
+}
+.d-inline > .my-active {
+	color: #00000 !important;
+}
+.d-inline {
+	margin: 0;
+	padding: 0;
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+ul {
+	list-style: none;
+  }
+ul li::before {
+	content: "\2022";
+	color: white;
+	font-weight: bold;
+	display:inline-flex; 
+	width: 1em;
+	margin-left: -1em;
+  }
